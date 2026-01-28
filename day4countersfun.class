@@ -1,0 +1,14 @@
+import java.util.Scanner;
+class Car {
+    int n;
+    Car(int x) {
+        this.n = x;
+    }
+}
+class Main {
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        Car c = new Car(2);  
+        System.out.println("Value of n: " + c.n);
+    }
+}
